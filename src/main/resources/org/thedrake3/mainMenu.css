@@ -1,0 +1,48 @@
+.button {
+    -fx-background-color:
+            #050404,
+            linear-gradient(#2b3238 0%, #080809 20%, #0a0a0a 100%),
+            linear-gradient(#343232, #0e0f10),
+            radial-gradient(center 50% 0%, radius 100%, rgba(92, 93, 101, 0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-alignment: center;
+    -fx-font-size: 100%;
+}
+
+.button:hover {
+    -fx-background-color:
+            white,
+            linear-gradient(white 0%, #d0d0d0 20%, #2b3238 100%),
+            linear-gradient(#d0d0d0, white),
+            radial-gradient(center 50% 0%, radius 100%, rgba(192, 193, 191, 0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , white , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(black, #2b3238);
+    -fx-alignment: center;
+    -fx-font-size: 120%;
+    -fx-cursor: HAND;
+}
+
+#mainMenuAnchorPane {
+    -fx-background-image: url('theDrakeBackGround.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+#mainMenuVBox {
+}
+
+
+#mainMenuTitle {
+    -fx-font-size: 80;
+    -fx-font-family: "Brush Script MT";
+    -fx-font-weight: BOLD;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , black, 5, 0.0, 0, 10);
+}

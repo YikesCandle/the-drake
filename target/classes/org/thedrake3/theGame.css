@@ -1,0 +1,23 @@
+#gameMap {
+    -fx-background-color: white;
+}
+#blueCaptures {
+    -fx-background-color: #e3e3e3;
+}
+#orangeCaptures {
+    -fx-background-color: #e3e3e3;
+}
+#orangeStack {
+    -fx-background-color: #e3e3e3;
+}
+#blueStack {
+    -fx-background-color: #e3e3e3;
+}
+
+#gameMapHBox {
+    /*-fx-background-color: yellow;*/
+}
+
+#gameMapVBox {
+    /*-fx-background-color: orange;*/
+}
